@@ -1,8 +1,8 @@
 #!/usr/bin/python3
+#11-delete_at.py
 
 def delete_at(my_list=[], idx=0):
-    """Deletes the item at a specific position in a list"""
+    """Delete the item at a specific position in a list"""
     if idx >= 0 and idx < len(my_list):
         del my_list[idx]
-    else:
         return (my_list)
